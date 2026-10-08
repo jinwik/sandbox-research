@@ -1,5 +1,7 @@
 # 轻量级沙箱方案调研（AI Agent / 不可信代码执行）
 
+> 延伸阅读：[Strands Box 架构分析](box-architecture.md)
+>
 > 调研时间：2026-10。重点对比 [strands-agents/box](https://github.com/strands-agents/box)（commit `2c874ea`）与 [microsoft/mxc](https://github.com/microsoft/mxc)（commit `7cd00d1`），两者都基于源码与仓库内设计文档阅读；第 5 节的其他方案基于公开资料，未逐一实测。
 
 ## 1. 结论速览
